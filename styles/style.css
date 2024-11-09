@@ -1,0 +1,87 @@
+/* Main body styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f1f1f1, #e3e3e3);
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Reset padding and margins for all elements */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Main resume container styling */
+  .resume-container {
+    max-width: 600px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Personal information styling */
+  .personal-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4a90e2;
+    margin-bottom: 15px;
+    margin-left: 220px;
+    
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a90e2;
+  }
+  
+  .contact-info {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Section styling */
+  .resume-section {
+    margin-bottom: 20px;
+  }
+  
+  .resume-section h2 {
+    font-size: 20px;
+    color: #4a90e2;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Toggle button styling */
+  .toggle-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #357abd;
+  }
+  
